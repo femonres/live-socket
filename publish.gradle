@@ -7,7 +7,7 @@ version '1.0.1'
 publishing {
     publications {
         Production(MavenPublication) {
-            artifact("$buildDir/outputs/aar/app-release.aar")
+            artifact("$buildDir/libs/${project.name}-${this.version}.jar")
             groupId 'com.whitecloud.socket'
             artifactId 'live-socket'
             version this.version
