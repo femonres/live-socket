@@ -8,5 +8,7 @@ dependencies {
     api project(':core')
 }
 
+apply from: '../publish.gradle'
+
 sourceCompatibility = "7"
 targetCompatibility = "7"
